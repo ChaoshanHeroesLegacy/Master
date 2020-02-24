@@ -6,18 +6,17 @@ country_event = {
 	desc = UP.1.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.1.a #围殴
 		hidden_effect = {
-			country_event = { id = UP.22 hour = 2 } #终
-			immediate = {
-				random_list = {
-					80 = {
-						#NEIN
-					}
-					20 = {
-						set_global_flag = deaddidu
-					}
+			country_event = { id = UP.22 hours = 2 } #终
+			random_list = {
+				80 = {
+					#NEIN
+				}
+				20 = {
+					set_global_flag = deaddidu
 				}
 			}
 		}
@@ -25,7 +24,7 @@ country_event = {
 	option = {
 		name = UP.1.b #哇浪，这么厉害？！
 		hidden_effect = {
-			country_event = { id = UP.2 hour = 2 }  #拖延时间
+			country_event = { id = UP.2 hours = 2 }  #拖延时间
 		}
 	}
 }
@@ -35,6 +34,7 @@ country_event = {
 	desc = UP.2.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.2.a #走火
 		hidden_effect = {
@@ -48,7 +48,7 @@ country_event = {
 			has_global_flag = qichao_past_goodattalk
 		}
 		hidden_effect = {
-			country_event = { id = UP.6 hour = 3} #顺利谈判
+			country_event = { id = UP.6 hours = 3} #顺利谈判
 			set_variable = {
 				var = upcon
 				value = 5
@@ -61,7 +61,7 @@ country_event = {
 			has_global_flag = qichao_past_cold
 		}
 		hidden_effect = {
-			country_event = { id = UP.7 hour = 3} #杀了！
+			country_event = { id = UP.7 hours = 3} #杀了！
 		}
 	}
 }
@@ -71,6 +71,7 @@ country_event = {
 	desc = UP.3.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.3.a #死了
 		hidden_effect = {
@@ -101,9 +102,10 @@ country_event = {
 	desc = UP.4.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.4.a
-		country_event = { id = SJX_tanpu.8 hour = 2 }
+		country_event = { id = SJX_tanpu.8 hours = 2 }
 	}
 }
 country_event = {
@@ -112,10 +114,11 @@ country_event = {
 	desc = UP.5.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.5.a #开始谈判
 		hidden_effect = {
-			country_event = { id = UP.8 hou = 2} #开始谈判
+			country_event = { id = UP.8 hours = 2} #开始谈判
 		}
 	}
 }
@@ -125,10 +128,11 @@ country_event = {
 	desc = UP.6.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.6.a #开始谈判
 		hidden_effect = {
-			country_event = { id = UP.8 hour = 2 } #开始谈判
+			country_event = { id = UP.8 hours = 2 } #开始谈判
 		}
 	}
 }
@@ -138,10 +142,11 @@ country_event = {
 	desc = UP.7.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.7.a #杀了！
 		hidden_effect = {
-			country_event = { id = UP.24 hour = 4} #枪声
+			country_event = { id = UP.24 hours = 4} #枪声
 			SJX = {
 				add_manpower = -100
 			}
@@ -157,10 +162,11 @@ country_event = {
 	desc = UP.8.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.8.a #开始谈判
 		hidden_effect = {
-			country_event = { id = UP.9 hour = 1} #大会一：为什么对立
+			country_event = { id = UP.9 hours = 1} #大会一：为什么对立
 		}
 	}
 }
@@ -170,11 +176,12 @@ country_event = {
 	desc = UP.9.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.9.a #一时之过
 		hidden_effect = {
-			country_event = { id = UP.10 hour = 1} #大会二
-			add_variable = {
+			country_event = { id = UP.10 hours = 1} #大会二
+			add_to_variable = {
 				var = upcon
 				value = 1
 			}
@@ -183,8 +190,8 @@ country_event = {
 	option = {
 		name = UP.9.b #降温
 		hidden_effect = {
-			country_event = { id = UP.10 hour = 1}   #大会二
-			add_variable = {
+			country_event = { id = UP.10 hours = 1}   #大会二
+			add_to_variable = {
 				var = upcon
 				value = -1
 			}
@@ -197,11 +204,12 @@ country_event = {
 	desc = UP.10.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.10.a #一致对外
 		hidden_effect = {
-			country_event = { id = UP.12 hour = 1} #大会三
-			add_variable = {
+			country_event = { id = UP.12 hours = 1} #大会三
+			add_to_variable = {
 				var = upcon
 				value = 2
 			}
@@ -210,8 +218,8 @@ country_event = {
 	option = {
 		name = UP.10.b #日本人带来好东西————炮兄这么说
 		hidden_effect = {
-			country_event = { id = UP.12 hour = 1}   #大会三
-			add_variable = {
+			country_event = { id = UP.12 hours = 1}   #大会三
+			add_to_variable = {
 				var = upcon
 				value = -1
 			}
@@ -225,11 +233,12 @@ country_event = {
 	desc = UP.12.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.12.a #正规军队————山鸡这么说
 		hidden_effect = {
-			country_event = { id = UP.18 hour = 1} #大会结束
-			add_variable = {
+			country_event = { id = UP.18 hours = 1} #大会结束
+			add_to_variable = {
 				var = upcon
 				value = -1
 			}
@@ -239,8 +248,8 @@ country_event = {
 	option = {
 		name = UP.12.b #维持现状
 		hidden_effect = {
-			country_event = { id = UP.18 hour = 1}   #大会结束
-			add_variable = {
+			country_event = { id = UP.18 hours = 1}   #大会结束
+			add_to_variable = {
 				var = upcon
 				value = 2
 			}
@@ -250,8 +259,8 @@ country_event = {
 	option = {
 		name = UP.12.c #帮派灵活多了————炮兄这么说
 		hidden_effect = {
-			country_event = { id = UP.18 hour = 1} #大会结束
-			add_variable = {
+			country_event = { id = UP.18 hours = 1} #大会结束
+			add_to_variable = {
 				var = upcon
 				value = -1
 			}
@@ -264,8 +273,8 @@ country_event = {
 			has_global_flag = qichao_past_goodattalk
 		}
 		hidden_effect = {
-			country_event = { id = UP.18 hour = 1}   #大会结束
-			add_variable = {
+			country_event = { id = UP.18 hours = 1}   #大会结束
+			add_to_variable = {
 				var = upcon
 				value = 1
 			}
@@ -279,6 +288,7 @@ country_event = {
 	desc = UP.18.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.18.a #顺利结束
 		trigger = {
@@ -289,30 +299,34 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			country_event = { id = UP.19 hour = 1} #顺利结束
+			country_event = { id = UP.19 hours = 1} #顺利结束
 		}
 	}
 	option = {
 		name = UP.18.b #僵局
-		check_variable = {
-			var = upcon
-			value = 5
-			compare = equals
+		trigger = {
+			check_variable = {
+				var = upcon
+				value = 5
+				compare = equals
+			}
 		}
 		hidden_effect = {
-			country_event = { id = UP.20 hour = 1}   #僵局
+			country_event = { id = UP.20 hours = 1}   #僵局
 			#记得buff
 		}
 	}
 	option = {
 		name = UP.18.c #失败
-		check_variable = {
-			var = upcon
-			value = 5
-			compare = less_than
+		trigger = {
+			check_variable = {
+				var = upcon
+				value = 5
+				compare = less_than
+			}
 		}
 		hidden_effect = {
-			country_event = { id = UP.21 hour = 1} #失败
+			country_event = { id = UP.21 hours = 1} #失败
 			#记得buff
 		}
 	}
@@ -323,10 +337,67 @@ country_event = {
 	desc = UP.19.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.19.a #新国策树
 		hidden_effect = {
-		#以后处理
+			UCC = {
+				annex_country = {
+					target = SJX
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = DPX
+					transfer_troops = yes
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_NORMAL_DESC"
+					picture = "gfx/leaders/UCC/liangqichao.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_NORMAL_DESC"
+					picture = "gfx/leaders/UCC/liangqichao.dds"
+					expire = "1965.1.1"
+					ideology = liberalism
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_NORMAL_DESC"
+					picture = "gfx/leaders/UCC/liangqichao.dds"
+					expire = "1965.1.1"
+					ideology = fascism_ideology
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_NORMAL_DESC"
+					picture = "gfx/leaders/UCC/liangqichao.dds"
+					expire = "1965.1.1"
+					ideology = marxism
+					traits = {
+					}
+				}
+			}
+			788 = {
+				remove_core_of = DPX
+				remove_core_of = SJX
+				add_core_of = UCC
+			}
+			789 = {
+				remove_core_of = DPX
+				remove_core_of = SJX
+				add_core_of = UCC
+			}
+			UCC = { change_tag_from = ROOT }
 		}
 	}
 }
@@ -336,24 +407,25 @@ country_event = {
 	desc = UP.20.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.20.a #听我句话
 		trigger = {
 			has_global_flag = qichao_past_goodattalk
 		}
 		hidden_effect = {
-			country_event = { id = UP.19 hour = 1} #顺利结束
+			country_event = { id = UP.19 hours = 1} #顺利结束
 		}
 	}
 	option = {
 		name = UP.20.b #怎么办？
 		hidden_effect = {
 			country_event = { id = UP.22 }  #正常失败
-			remove_global_flag = up_gang
-			remove_global_flag = up_sicmafia
-			remove_global_flag = up_status_quo_army
-			remove_global_flag = up_truearmy
-			remove_global_flag = UP_JAPSUPPORT
+			clr_global_flag = up_gang
+			clr_global_flag = up_sicmafia
+			clr_global_flag = up_status_quo_army
+			clr_global_flag = up_truearmy
+			clr_global_flag = UP_JAPSUPPORT
 		}
 		complete_national_focus = SJX_war_tangbu
 	}
@@ -371,6 +443,7 @@ country_event = {
 	desc = UP.21.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.21.a #fuck
 		hidden_effect = { #正常失败
@@ -398,6 +471,7 @@ country_event = {
 	desc = UP22d #动态文本
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.22.a #死了
 		trigger = {
@@ -425,6 +499,7 @@ country_event = {
 	desc = UP.23.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.23.a #调遣保安
 		SJX = {
@@ -432,7 +507,7 @@ country_event = {
 			create_country_leader = {
 				name = "无政府状态"
 				desc = "POLITICS_ANARCHY_DESC"
-				picture = "ANARRCHY.dds"
+				picture = "gfx/leaders/ANARCHY.dds"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -444,7 +519,7 @@ country_event = {
 			create_country_leader = {
 				name = "无政府状态"
 				desc = "POLITICS_ANARCHY_DESC"
-				picture = "ANARRCHY.dds"
+				picture = "gfx/leaders/ANARCHY.dds"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -452,7 +527,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			country_event = { id = UP.25 hour = 3 } #调遣保安
+			country_event = { id = UP.25 hours = 3 } #调遣保安
 		}
 	}
 }
@@ -462,6 +537,7 @@ country_event = {
 	desc = UP.24.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.24.a #调遣保安
 		set_global_flag = death_of_paoxiongshanji
@@ -471,7 +547,7 @@ country_event = {
 			create_country_leader = {
 				name = "无政府状态"
 				desc = "POLITICS_ANARCHY_DESC"
-				picture = "ANARRCHY.dds"
+				picture = "gfx/leaders/ANARCHY.dds"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -484,7 +560,7 @@ country_event = {
 			create_country_leader = {
 				name = "无政府状态"
 				desc = "POLITICS_ANARCHY_DESC"
-				picture = "ANARRCHY.dds"
+				picture = "gfx/leaders/ANARCHY.dds"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -492,7 +568,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			country_event = { id = UP.25 hour = 3 } #调遣保安
+			country_event = { id = UP.25 hours = 3 } #调遣保安
 		}
 	}
 }
@@ -502,24 +578,25 @@ country_event = {
 	desc = UP.25.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.25.a #清理敢死帮
 		hidden_effect = {
-			country_event = { id = UP.26 hour = 2 }  #金子！
+			country_event = { id = UP.26 hours = 2 }  #金子！
 			set_global_flag = gansi_first
 		}
 	}
 	option = {
 		name = UP.25.b #清理大炮帮
 		hidden_effect = {
-			country_event = { id = UP.27 hour = 2 }  #鬼子！
+			country_event = { id = UP.27 hours = 2 }  #鬼子！
 			set_global_flag = dapao_first
 		}
 	}
 	option = {
 		name = UP.25.c #分头行动！
 		hidden_effect = {
-			country_event = { id = UP.28 hour = 2 } #我们被击退了！
+			country_event = { id = UP.28 hours = 2 } #我们被击退了！
 		}
 	}
 }
@@ -529,10 +606,11 @@ country_event = {
 	desc = UP.26.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.26.a #通通拿走
 		hidden_effect = {
-			country_event = { id = UP.32 hour = 9 } #尘埃落地
+			country_event = { id = UP.32 hours = 9 } #尘埃落地
 			#以后
 		}
 	}
@@ -543,10 +621,11 @@ country_event = {
 	desc = UP.27.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.27.a #baki！你太auto了，快滚回你的日本吧！！
 		hidden_effect = {
-			country_event = { id = UP.32 hour = 9 } #尘埃落地
+			country_event = { id = UP.32 hours = 9 } #尘埃落地
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 6000
@@ -561,10 +640,11 @@ country_event = {
 	desc = UP.28.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.28.a #怎么办？！
 		hidden_effect = {
-			country_event = { id = UP.29 hour = 4 } #梁启潮当场去世
+			country_event = { id = UP.29 hours = 4 } #梁启潮当场去世
 			set_global_flag = dead_qichao
 		}
 	}
@@ -575,16 +655,17 @@ country_event = {
 	desc = UP.29.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.29.a #等等！！（神秘人）
 		hidden_effect = {
-			country_event = { id = UP.30 hour = 4 } #didu侠掌权
+			country_event = { id = UP.30 hours = 4 } #didu侠掌权
 		}
 	}
 	option = {
 		name = UP.29.a #他逃走了！
 		hidden_effect = {
-			country_event = { id = UP.31 hour = 4 } #失去梦想
+			country_event = { id = UP.31 hours = 4 } #失去梦想
 		}
 	}
 }
@@ -594,10 +675,67 @@ country_event = {
 	desc = UP.30.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.30.a #这个选项我不知道写什么（编，接着编！）
 		hidden_effect = {
-			#以后
+			UCC = {
+				annex_country = {
+					target = SJX
+				}
+				annex_country = {
+					target = DPX
+				}
+				load_focus_tree = UCC_DIDU
+				set_cosmetic_tag = UCC_DIDU
+				create_country_leader = {
+					name = "蜘猪侠"
+					desc = "POLITICS_DIDUXIA_DESC"
+					picture = "gfx/leaders/UCC/diduxia.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "蜘猪侠"
+					desc = "POLITICS_DIDUXIA_DESC"
+					picture = "gfx/leaders/UCC/diduxia.dds"
+					expire = "1965.1.1"
+					ideology = liberalism
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "蜘猪侠"
+					desc = "POLITICS_DIDUXIA_DESC"
+					picture = "gfx/leaders/UCC/diduxia.dds"
+					expire = "1965.1.1"
+					ideology = fascism_ideology
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "蜘猪侠"
+					desc = "POLITICS_DIDUXIA_DESC"
+					picture = "gfx/leaders/UCC/diduxia.dds"
+					expire = "1965.1.1"
+					ideology = marxism
+					traits = {
+					}
+				}
+			}
+			788 = {
+				remove_core_of = DPX
+				remove_core_of = SJX
+				add_core_of = UCC
+			}
+			789 = {
+				remove_core_of = DPX
+				remove_core_of = SJX
+				add_core_of = UCC
+			}
+			UCC = { change_tag_from = ROOT }
 		}
 	}
 }
@@ -607,12 +745,17 @@ country_event = {
 	desc = UP.31.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.31.a #这个选项我不知道写什么（编，接着编！）
 		hidden_effect = {
 			GXC = {
-				annex = DPX
-				annex = SJX
+				annex_country = {
+					target = DPX
+				}	
+				annex_country = {
+					target = SJX
+				}
 			}
 			788 = {
 				remove_core_of = DPX
@@ -631,10 +774,65 @@ country_event = {
 	desc = UP.32.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = UP.32.a #买买买买买
-		hidden_effect = {
-			#以后
+		UCC = {
+			annex_country = {
+				target = SJX
+			}
+			annex_country = {
+				target = DPX
+			}
+			load_focus_tree = UCC_IRONFIST
+			set_cosmetic_tag = UCC_IRONFIST
+			create_country_leader = {
+				name = "梁启潮"
+				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "梁启潮"
+				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+				expire = "1965.1.1"
+				ideology = liberalism
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "梁启潮"
+				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+				expire = "1965.1.1"
+				ideology = fascism_ideology
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "梁启潮"
+				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+				expire = "1965.1.1"
+				ideology = marxism
+				traits = {
+				}
+			}
 		}
+		788 = {
+			remove_core_of = DPX
+			remove_core_of = SJX
+			add_core_of = UCC
+		}
+		789 = {
+			remove_core_of = DPX
+			remove_core_of = SJX
+			add_core_of = UCC
+		}
+		UCC = { change_tag_from = ROOT }
 	}
 }

@@ -1,14 +1,14 @@
 add_namespace = SJX_tanpu
 country_event = {
-	id = SJX_tanpu.0       #无端挑衅
-	title = SJX_tanpu.0.t
-	desc = SJX_tanpu.0.d
+	id = SJX_tanpu.1919810       #无端挑衅
+	title = SJX_tanpu.1919810.t
+	desc = SJX_tanpu.1919810.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
 	option = {
-		name = SJX_tanpu.0.a 
+		name = SJX_tanpu.1919810.a 
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.1 hour = 1} #山鸡兄！
+			country_event = { id = SJX_tanpu.1 hours = 1} #山鸡兄！
 		}
 	}
 }
@@ -18,10 +18,11 @@ country_event = {
 	desc = SJX_tanpu.1.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.1.a 
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.3 hour = 1 } #这他妈才2.3人？
+			country_event = { id = SJX_tanpu.3 hours = 1 } #这他妈才2.3人？
 		}
 	}
 }
@@ -31,10 +32,11 @@ country_event = {
 	desc = SJX_tanpu.2.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.2.a #不要怕！上！
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.3 hour = 1 } #弟啊，打我兄弟？
+			country_event = { id = SJX_tanpu.3 hours = 1 } #弟啊，打我兄弟？
 		}
 	}
 	option = {
@@ -50,10 +52,11 @@ country_event = {
 	desc = SJX_tanpu.3.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.3.a #试图抢枪
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.4 hour = 1 } #骚动+等等！
+			country_event = { id = SJX_tanpu.4 hours = 1 } #骚动+等等！
 		}
 	}
 	option = {
@@ -69,10 +72,11 @@ country_event = {
 	desc = SJX_tanpu.4.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.4.a 
 		hidden_effect = {
-			country_event = { id = UP.1 hour = 1 } #didu侠出现
+			country_event = { id = UP.1 hours = 1 } #didu侠出现
 		}
 	}
 }
@@ -82,10 +86,11 @@ country_event = {
 	desc = SJX_tanpu.5.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.5.a 
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.6 hour = 1 } #物！物！物！
+			country_event = { id = SJX_tanpu.6 hours = 1 } #物！物！物！
 		}
 	}
 }
@@ -95,16 +100,17 @@ country_event = {
 	desc = SJX_tanpu.6.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.6.a #不公平，一对一！
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.7 hour = 1 } #片刀与甘蔗
+			country_event = { id = SJX_tanpu.7 hours = 1 } #片刀与甘蔗
 		}
 	}
 	option = {
 		name = SJX_tanpu.6.b #上啊！
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.8 hour = 1 } #火并
+			country_event = { id = SJX_tanpu.8 hours = 1 } #火并
 		}
 	}
 }
@@ -114,10 +120,11 @@ country_event = {
 	desc = SJX_tanpu.7.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.7.a 
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.8 hour = 1 } #火并
+			country_event = { id = SJX_tanpu.8 hours = 1 } #火并
 		}
 	}
 }
@@ -127,10 +134,11 @@ country_event = {
 	desc = SJX_tanpu.8.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.8.a 
 		hidden_effect = {
-			country_event = { id = SJX_tanpu.10 hour = 1 } #火并
+			country_event = { id = SJX_tanpu.10 hours = 1 } #火并
 		}
 	}
 }
@@ -140,6 +148,7 @@ country_event = {
 	desc = SJX_tanpu.9.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.9.a 
 		hidden_effect = {
@@ -155,6 +164,7 @@ country_event = {
 	desc = SJX_tanpu.10.d
 	picture = GFX_report_event_gathering_protest 
 	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = SJX_tanpu.10.a 
 		hidden_effect = {

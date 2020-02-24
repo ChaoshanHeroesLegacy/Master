@@ -1,0 +1,14 @@
+focus_tree = {
+	id = UCC_IRONFIST
+	country = {
+		factor = 0
+	}
+	default = no
+
+
+
+
+
+
+	
+}

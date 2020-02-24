@@ -1,0 +1,9 @@
+UCC_DIDU = {
+    color = rgb { 68 113 136 }
+    color_ui = rgb { 68 113 136 }
+}
+
+UCC_IRONFIST = {
+    color = rgb { 68 113 136 }
+    color_ui = rgb { 68 113 136 }
+}

@@ -1,0 +1,13 @@
+focus_tree = {
+	id = UCC_normal
+	country = {
+		factor = 0
+	}
+	default = no
+
+
+
+
+
+	
+}
