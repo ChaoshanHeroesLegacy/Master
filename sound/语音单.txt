@@ -1,0 +1,67 @@
+站立：
+sound = chao_idle_0
+P4 04:38 什么事！（啊不要）
+sound = chao_idle_1
+P1 10:44 好  好（把他抬走不要）
+sound = chao_idle_2
+P1 06:00 嗯好拜（一共有两个嗯好一个拜，第一个嗯好不要）
+sound = chao_idle_3
+P2 08:25  啊什么事什么事！
+sound = chao_idle_4
+P2 04:34  兄啊！（只有兄，其他不要）  
+
+
+
+防御：
+sound = chao_neutral_0
+P2 05:07 日恁毛！（关你屁事！）
+sound = chao_neutral_1
+P2 05:47 NIGGER MAN！（你们想要干什么！）
+sound = chao_neutral_2
+P1 11:39 不公平，一对一！
+sound = chao_neutral_3
+P2 06:10 买买买买买买买（不要打了
+sound = chao_neutral_4
+P2 04:20 多关注哈！
+进攻：
+sound = chao_positive_0
+P1  11:47  哈哈哈软脚！
+sound = chao_Positive_1
+P1  07：59  物死他们！
+sound = chao_Positive_2
+P1  09:15   死父仔在哪？物依 物依！
+sound = chao_Positive_3
+P1  09:30   物死他们！（把他们干掉）
+sound = chao_Positive_4
+P1  10:06    物！物！（打！打！）
+sound = chao_Positive_5
+P1  11:32    干！（打...妈的）
+sound = chao_Positive_6
+P2  07:17    哇臭鸡啊！
+撤退：
+sound = chao_retreat_0
+P2 04:00 饶了我吧！（第一个）
+sound = chao_retreat_1
+P1 09:50  等下！（第一个）
+sound = chao_retreat_2
+P1 09:50  等下！（第二个）
+sound = chao_retreat_3
+P1 10:04  他们要拿枪（不要加上炮兄）
+sound = chao_retreat_4
+P1 11:37  停 停 停
+sound = chao_retreat_5
+P4 04:42  下面弄到了
+
+移动：
+sound = chao_move_0
+P1 10:41  走！
+sound = chao_move_1
+P1 12:12 炮兄等我！
+sound = chao_move_2
+P2 06:58  走！
+sound = chao_move_3
+P2 08:37 来我来我来
+sound = chao_move_4
+P2 04:24  噔噔噔噔 
+sound = chao_move_5
+P2 03:34  好买走（不要去庆祝这几个字）

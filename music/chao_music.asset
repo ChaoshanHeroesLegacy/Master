@@ -1,0 +1,30 @@
+music = {
+  name = "jcpn"
+  file = "jcpn.ogg"
+  volume = 0.65
+}
+music = {
+  name = "yhhcyhy"
+  file = "yhhcyhy.ogg"
+  volume = 0.65
+}
+music = {
+  name = "csrap"
+  file = "csrap.ogg"
+  volume = 0.65
+}
+music = {
+  name = "jyrrgm"
+  file = "jyrrgm.ogg"
+  volume = 0.70
+}
+music = {
+  name = "sjb"
+  file = "sjb.ogg"
+  volume = 0.65
+}
+music = {
+  name = "opening"
+  file = "opening.ogg"
+  volume = 0.55
+}

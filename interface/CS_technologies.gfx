@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_SJX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SJX_infantry_equipment_0.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SJX_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SJX_motoized_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPX_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DPX_motoized_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DPX_infantry_equipment_0.dds"
+	}	
+
+}

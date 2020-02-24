@@ -1,0 +1,62 @@
+music_station = "cs"
+music = {
+  song = "yhhcyhy"
+  chance = {
+    modifier = {
+      factor = 4
+      has_war = no
+	TAG = DPX
+	TAG = SJX
+    }
+  }
+}
+music = {
+  song = "csrap"
+  chance = {
+	modifier = {
+	TAG = DPX
+	TAG = SJX
+	factor =4
+    }
+  }
+}
+music = {
+  song = "jyrrgm"
+  chance = {
+	modifier = {
+	TAG = DPX
+	TAG = SJX
+	factor =4
+    }
+  }
+}
+music = {
+  song = "jcpn"
+  chance = {
+    modifier = {
+      factor = 4
+      has_war = no
+	TAG = DPX
+	TAG = SJX
+    }
+  }
+}
+music = {
+  song = "sjb"
+  chance = {
+    modifier = {
+		factor = 4
+		TAG = DPX
+		TAG = SJX
+    }
+  }
+}
+music = {
+  song = "opening"
+  chance = {
+    modifier = {
+		factor = 4
+		TAG = DPX
+    }
+  }
+}

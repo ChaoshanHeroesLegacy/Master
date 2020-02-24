@@ -1,0 +1,119 @@
+﻿capital = 788
+
+oob = "SJX_1936"
+
+set_stability = 0.2
+set_war_support = 0.2
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+}
+
+1939.1.1 = {
+	oob = "SJX_1939"
+	add_political_power = 1198
+}
+
+
+
+set_convoys = 5
+
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 0
+	communism = 0
+	neutrality = 100
+	democratic = 0
+}
+
+create_country_leader = {
+	name = "山鸡"
+	desc = "POLITICS_SJ_DESC"
+	picture = "gfx/leaders/SJX/shanji.dds"
+	expire = "1999.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "山鸡"
+	gfx = "gfx/leaders/SJX/shanji.dds"
+	traits = {inspirational_leader  }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "忠弟"
+	gfx = "gfx/leaders/SJX/zhongdi.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "焦罗钱"
+	gfx = "gfx/leaders/SJX/jiaoluoqian.dds"
+	traits = { scavenger }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "伟哥"
+	gfx = "gfx/leaders/SJX/weige.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "贵财"
+	gfx = "gfx/leaders/SJX/guicai.dds"
+	traits = { combined_arms_expert }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+

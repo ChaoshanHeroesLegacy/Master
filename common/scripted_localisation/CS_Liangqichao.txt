@@ -1,0 +1,74 @@
+defined_text = {
+	name = life_qichao_1
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			NOT = {
+				has_global_flag = qichao_past_cold
+			}
+		}
+		localization_key = normal_qichao
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = qichao_past_cold
+		}
+		localization_key = cold_qichao
+	}
+}
+
+defined_text = {
+	name = life_qichao_2
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = qichao_past_study
+		}
+		localization_key = studywell_qichao
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			NOT = {
+				has_global_flag = qichao_past_study
+				has_global_flag = qichao_past_cold
+			}
+		}
+		localization_key = laoban_qichao
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = qichao_warbrother
+		}
+		localization_key = warbrother_qichao
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = qichao_whiterussia
+		}
+		localization_key = whiterussia_qichao
+	}
+}
+
+defined_text = {
+	name = life_qichao_3
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = qichao_past_cold
+		}
+		localization_key = life_qichao_3_cold
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = qichao_past_study
+		}
+		localization_key = life_qichao_3_study
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			NOT = {
+				has_global_flag = qichao_past_study
+				has_global_flag = qichao_past_cold
+			}
+		}
+		localization_key = life_qichao_3_laoban
+	}
+}
+

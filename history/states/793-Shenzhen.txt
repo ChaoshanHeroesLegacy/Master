@@ -1,0 +1,37 @@
+state={
+	id=793
+	name="STATE_793"
+	resources={
+		tungsten=15.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		owner = GXC
+		add_core_of = DPX
+		add_core_of = SJX
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			air_base = 2
+			7108 = {
+				bunker = 1
+			}
+
+		}
+		victory_points = {
+			7108 1 
+		}
+
+	}
+
+	provinces={
+		7108 1202 12095
+	}
+	manpower=3624000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

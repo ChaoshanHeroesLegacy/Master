@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_cs_text"
+		texturefile = "gfx/texticons/cs_text.dds"
+		legacy_lazy_load = no
+	}
+
+}

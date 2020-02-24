@@ -1,0 +1,374 @@
+
+category = {
+ name = "Voices"
+ soundeffects = {
+	SJX_infantry_idle   #静止不动
+	SJX_infantry_neutral_combat  #防御
+	SJX_infantry_positive_combat  #进攻
+	SJX_infantry_retreat   #撤退
+	SJX_infantry_move_out	#移动
+	DPX_infantry_idle
+	DPX_infantry_neutral_combat
+	DPX_infantry_positive_combat
+	DPX_infantry_retreat
+	DPX_infantry_move_out	
+ }
+  compressor = {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+
+soundeffect = 
+{
+    name = "SJX_infantry_idle"   #静止不动
+    sounds = {
+		sound = chao_idle_0
+       	sound = chao_idle_1
+		sound = chao_idle_2
+		sound = chao_idle_3
+		sound = chao_idle_4
+		sound = chao_idle_5
+		sound = chao_idle_6
+		sound = chao_idle_7
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = {
+    name = "SJX_infantry_neutral_combat"   #防御
+    sounds = {
+        sound = chao_neutral_0
+		sound = chao_neutral_1
+		sound = chao_neutral_2
+		sound = chao_neutral_3
+		sound = chao_neutral_4
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SJX_infantry_positive_combat"  #进攻
+    sounds = {
+        sound = chao_positive_0
+		sound = chao_positive_1
+		sound = chao_positive_2
+		sound = chao_positive_3
+		sound = chao_positive_4
+		sound = chao_positive_5
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SJX_infantry_retreat"   #撤退
+    sounds = {
+        sound = chao_retreat_0
+		sound = chao_retreat_1
+		sound = chao_retreat_2
+		sound = chao_retreat_3
+		sound = chao_retreat_4
+		sound = chao_retreat_5
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SJX_infantry_move_out"
+    sounds = {
+        sound = chao_move_0
+		sound = chao_move_1
+		sound = chao_move_2
+		sound = chao_move_3
+		sound = chao_move_4
+		sound = chao_move_5
+		sound = chao_move_6
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "DPX_infantry_idle"   #静止不动
+    sounds = {
+		sound = chao_idle_0
+       	sound = chao_idle_1
+		sound = chao_idle_2
+		sound = chao_idle_3
+		sound = chao_idle_4
+		sound = chao_idle_5
+		sound = chao_idle_6
+		sound = chao_idle_7
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = {
+    name = "DPX_infantry_neutral_combat"   #防御
+    sounds = {
+        sound = chao_neutral_0
+		sound = chao_neutral_1
+		sound = chao_neutral_2
+		sound = chao_neutral_3
+		sound = chao_neutral_4
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "DPX_infantry_positive_combat"  #进攻
+    sounds = {
+        sound = chao_positive_0
+		sound = chao_positive_1
+		sound = chao_positive_2
+		sound = chao_positive_3
+		sound = chao_positive_4
+		sound = chao_positive_5
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "DPX_infantry_retreat"   #撤退
+    sounds = {
+        sound = chao_retreat_0
+		sound = chao_retreat_1
+		sound = chao_retreat_2
+		sound = chao_retreat_3
+		sound = chao_retreat_4
+		sound = chao_retreat_5
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "DPX_infantry_move_out"
+    sounds = {
+        sound = chao_move_0
+		sound = chao_move_1
+		sound = chao_move_2
+		sound = chao_move_3
+		sound = chao_move_4
+		sound = chao_move_5
+		sound = chao_move_6
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+sound = 
+{
+	name = "chao_idle_0"
+	file = "chao/chao_idle_0.wav"
+}
+sound = 
+{
+	name = "chao_idle_1"
+	file = "chao/chao_idle_1.wav"
+}
+sound = 
+{
+	name = "chao_idle_2"
+	file = "chao/chao_idle_2.wav"
+}
+sound = 
+{
+	name = "chao_idle_3"
+	file = "chao/chao_idle_3.wav"
+}
+sound = 
+{
+	name = "chao_idle_4"
+	file = "chao/chao_idle_4.wav"
+}
+sound = 
+{
+	name = "chao_idle_5"
+	file = "chao/chao_idle_0.wav"
+}
+sound = 
+{
+	name = "chao_idle_6"
+	file = "chao/chao_idle_1.wav"
+}
+sound = 
+{
+	name = "chao_idle_7"
+	file = "chao/chao_idle_4.wav"
+}
+sound = 
+{
+	name = "chao_neutral_0"
+	file = "chao/chao_neutral_0.wav"
+}
+sound = 
+{
+	name = "chao_neutral_1"
+	file = "chao/chao_neutral_1.wav"
+}
+sound = 
+{
+	name = "chao_neutral_2"
+	file = "chao/chao_neutral_2.wav"
+}
+sound = 
+{
+	name = "chao_neutral_3"
+	file = "chao/chao_neutral_3.wav"
+}
+sound = 
+{
+	name = "chao_neutral_4"
+	file = "chao/chao_neutral_4.wav"
+}
+sound = 
+{
+	name = "chao_positive_0"
+	file = "chao/chao_positive_0.wav"
+}
+sound = 
+{
+	name = "chao_positive_1"
+	file = "chao/chao_positive_1.wav"
+}
+sound = 
+{
+	name = "chao_positive_2"
+	file = "chao/chao_positive_2.wav"
+}
+sound = 
+{
+	name = "chao_positive_3"
+	file = "chao/chao_positive_3.wav"
+}
+sound = 
+{
+	name = "chao_positive_4"
+	file = "chao/chao_Positive_4.wav"
+}
+sound = 
+{
+	name = "chao_positive_5"
+	file = "chao/chao_positive_5.wav"
+}
+sound = 
+{
+	name = "chao_positive_6"
+	file = "chao/chao_positive_6.wav"
+}
+sound = 
+{
+	name = "chao_positive_1"
+	file = "chao/chao_positive_1.wav"
+}
+sound = 
+{
+	name = "chao_positive_1"
+	file = "chao/chao_positive_1.wav"
+}
+sound = 
+{
+	name = "chao_retreat_0"
+	file = "chao/chao_retreat_0.wav"
+}
+sound = 
+{
+	name = "chao_retreat_1"
+	file = "chao/chao_retreat_1.wav"
+}
+sound = 
+{
+	name = "chao_retreat_2"
+	file = "chao/chao_retreat_2.wav"
+}
+sound = 
+{
+	name = "chao_retreat_3"
+	file = "chao/chao_retreat_3.wav"
+}
+sound = 
+{
+	name = "chao_retreat_4"
+	file = "chao/chao_retreat_4.wav"
+}
+sound = 
+{
+	name = "chao_retreat_5"
+	file = "chao/chao_retreat_5.wav"
+}
+sound = 
+{
+	name = "chao_move_0"
+	file = "chao/chao_move_0.wav"
+}
+sound = 
+{
+	name = "chao_move_1"
+	file = "chao/chao_move_1.wav"
+}
+sound = 
+{
+	name = "chao_move_2"
+	file = "chao/chao_move_2.wav"
+}
+sound = 
+{
+	name = "chao_move_3"
+	file = "chao/chao_move_3.wav"
+}
+sound = 
+{
+	name = "chao_move_4"
+	file = "chao/chao_move_4.wav"
+}
+sound = 
+{
+	name = "chao_move_5"
+	file = "chao_retreat_1" #重复大法！！
+}
+sound = 
+{
+	name = "chao_move_6"
+	file = "chao/chao_move_2.wav" #重复大法！！
+}

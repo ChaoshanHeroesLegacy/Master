@@ -1,0 +1,107 @@
+﻿l_english:
+ #qichaopasteffect
+ qichao_past_1a:0 ""
+ qichao_past_1b:0 ""
+ qichao_past_2a:0 ""
+ qichao_past_2b:0 ""
+ qichao_past_3a:0 ""
+ qichao_past_3b:0 ""
+ qichao_past_4a:0 ""
+ qichao_past_5a:0 ""
+ qichao_past_6a:0 ""
+ qichao_past_7a:0 ""
+ qichao_past_7b:0 ""
+ qichao_past_8a:0 ""
+ qichao_past_9a:0 ""
+ qichao_past_9b:0 ""
+ qichao_past_114514a:0 "梁启潮就是这样的人。"
+ 
+ 
+ 
+ #114514qichao
+ normal_qichao:0 ""
+ cold_qichao:0 ""
+ laoban_qichao:0 ""
+ warbrother_qichao:0 ""
+ whiterussia_qichao:0 ""
+ life_qichao_3_cold:0 ""
+ life_qichao_3_study:0 ""
+ life_qichao_3_laoban:0 ""
+ 
+ 
+ 
+ 
+ 
+ 
+ #pastofqichao
+ qichao_past.1.t:0 "冰室老板的前半生"
+ qichao_past.1.d:0 "当你在这儿的大街小巷提到塘埔冰室的梁启潮时，你会得到什么回复？好吧，答案实际上多种多样：有人说他是个只知一己私利发国难财的狡诈奸商，也有人说他是个救济贫苦百姓的大善人，甚至还有人说他实际上和当地影响力巨大的黑帮有着密切合作关系......以谣传谣在这片国土上从来都不是什么奇怪事，但实际上呢？\n\n梁启潮是个冰室老板，对，而他也不过是个平平淡淡做小生意的人。的确，我承认他的冰室比起世界上绝大部分冰室都显得没那么“冰室”。但这一切都是有脉络的，他的生平波澜起伏曲折不平，如果要好好讲，那我们就不得不回到最开始。\n\n梁启潮的出生已然是不可考的了，但有一点却是所有人都能凭其一眼定下印象的——那就是一个人最为代表的事儿。你不能要求一个幼年的孩童能干下什么丰功伟绩，更不能指望在这么一个家境平凡的孩子身上。若是真要说他的孩提年代有什么值得注意的，那便是......"
+ qichao_past.1.a:0 "他挺合群，不是吗？"
+ qichao_past.1.b:0 "§R他九岁时拿着家里的鸟枪杀死了一名清兵。§!"
+ qichao_past.1.a:0 ""
+ qichao_past.1.b:0 ""
+ qichao_past.2.t:0 ""
+ qichao_past.2.d:0 ""
+ qichao_past.2.a:0 ""
+ qichao_past.2.b:0 ""
+ qichao_past.3.t:0 ""
+ qichao_past.3.d:0 ""
+ qichao_past.3.a:0 ""
+ qichao_past.3.b:0 ""
+ qichao_past.4.t:0 ""
+ qichao_past.4.d:0 ""
+ qichao_past.4.a:0 ""
+ qichao_past.5.t:0 ""
+ qichao_past.5.d:0 ""
+ qichao_past.5.a:0 ""
+ qichao_past.6.t:0 ""
+ qichao_past.6.d:0 ""
+ qichao_past.6.a:0 ""
+ qichao_past.7.t:0 ""
+ qichao_past.7.d:0 ""
+ qichao_past.7.a:0 ""
+ qichao_past.7.b:0 ""
+ qichao_past.8.t:0 ""
+ qichao_past.8.d:0 ""
+ qichao_past.8.a:0 ""
+ qichao_past.9.t:0 ""
+ qichao_past.9.d:0 ""
+ qichao_past.9.a:0 ""
+ qichao_past.9.b:0 ""
+ 
+ 
+ qichao_past.114514.t:0 "所以，梁启潮..."
+ qichao_past.114514.d:0 "[life_qichao_1]\n\n[life_qichao_2]"
+ qichao_past.114514.a:0 "[life_qichao_3]"
+ 
+ #梁启潮结算动态
+ life_qichao_1
+ life_qichao_2
+ life_qichao_3
+ cold_qichao:0 ""
+ normal_qichao:0 ""
+ whiterussia_qichao:0 ""
+ laoban_qichao:0 ""
+ warbrother_qichao:0 ""
+ studywell_qichao:0 ""
+ life_qichao_3_cold:0 ""
+ life_qichao_3_laoban:0 ""
+ life_qichao_3_study:0 ""
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

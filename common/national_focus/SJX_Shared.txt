@@ -1,0 +1,136 @@
+
+	shared_focus = {
+		id = SJX_money_life
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 19
+		y = 0
+
+	}
+	shared_focus = {
+		id = SJX_whatwedo
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_money_life
+		}
+		x = 19
+		y = 1
+
+	}
+	shared_focus = {
+		id = SJX_project_plans
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_whatwedo
+		}
+		x = 15
+		y = 2
+
+	}
+	shared_focus = {
+		id = SJX_big_make_iron
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_project_plans
+		}
+		x = 14
+		y = 3
+
+	}
+	shared_focus = {
+		id = SJX_farm_machine
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_project_plans
+		}
+		x = 16
+		y = 3
+
+	}
+	shared_focus = {
+		id = SJX_project_newdeal
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_whatwedo
+		}
+		x = 19
+		y = 2
+
+	}
+	shared_focus = {
+		id = SJX_one_hand_factory
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_project_newdeal
+		}
+		prerequisite = {
+			focus = SJX_project_newdeal
+		}
+		x = 18
+		y = 3
+
+	}
+	shared_focus = {
+		id = SJX_one_hand_sign
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_project_newdeal
+		}
+		x = 20
+		y = 3
+
+	}
+	shared_focus = {
+		id = SJX_project_money
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_whatwedo
+		}
+		x = 24
+		y = 2
+
+	}
+	shared_focus = {
+		id = SJX_come_from_HK
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_project_money
+		}
+		x = 23
+		y = 3
+
+	}
+	shared_focus = {
+		id = SJX_deal_with_company
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_project_money
+		}
+		x = 25
+		y = 3
+
+	}
+	shared_focus = {
+		id = SJX_first_foot_left
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_one_hand_factory
+			focus = SJX_one_hand_sign
+			focus = SJX_farm_machine
+			focus = SJX_come_from_HK
+			focus = SJX_deal_with_company
+			focus = SJX_big_make_iron
+		}
+		x = 19
+		y = 4

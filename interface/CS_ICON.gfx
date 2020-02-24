@@ -1,0 +1,40 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_goal_PX_VS_SJ"
+		texturefile = "gfx/interface/goals/goal_PX_VS_SJ.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_lost_tangpuqiao"
+		texturefile = "gfx/interface/goals/goal_sjx_lost_tangpuqiao.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_reform"
+		texturefile = "gfx/interface/goals/goal_sjx_reform.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_rethink_enemy"
+		texturefile = "gfx/interface/goals/goal_sjx_rethink_enemy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_rethink_manpower"
+		texturefile = "gfx/interface/goals/goal_sjx_rethink_manpower.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_rethink_weapon"
+		texturefile = "gfx/interface/goals/goal_sjx_rethink_weapon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_summon_up_heart"
+		texturefile = "gfx/interface/goals/goal_sjx_summon_up_heart.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_war_3road"
+		texturefile = "gfx/interface/goals/goal_sjx_war_3road.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sjx_winner_3road"
+		texturefile = "gfx/interface/goals/goal_sjx_winner_3road.dds"
+	}
+
+}

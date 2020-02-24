@@ -1,0 +1,115 @@
+focus_tree = {
+	id = SJX_START
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SJX
+		}
+	}
+	default = no
+	focus = {
+		id = SJX_war_tangbu
+		icon = GFX_goal_PX_VS_SJ
+		cost = 0.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = SJX_failure_tangbu
+		icon = GFX_goal_sjx_lost_tangpuqiao
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_war_tangbu
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = SJX_inside_reform
+		icon = GFX_goal_sjx_reform
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_failure_tangbu
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = SJX_thinking_weapon
+		icon = GFX_goal_sjx_rethink_weapon
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_inside_reform
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = SJX_thinking_general
+		icon = GFX_goal_sjx_rethink_manpower
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_inside_reform
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = SJX_thinking_dpx
+		icon = GFX_goal_sjx_rethink_enemy
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_inside_reform
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = SJX_summon_up_heart
+		icon = GFX_goal_sjx_summon_up_heart
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_thinking_weapon
+		}
+		prerequisite = {
+			focus = SJX_thinking_dpx
+		}
+		prerequisite = {
+			focus = SJX_thinking_general
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = SJX_war_3_road
+		icon = GFX_goal_sjx_war_3road
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_summon_up_heart
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = SJX_winner_3_road
+		icon = GFX_goal_sjx_winner_3road
+		cost = 0.00
+		prerequisite = {
+			focus = SJX_war_3_road
+		}
+		x = 5
+		y = 6
+
+	}
+	shared_focus = SJX_money_life
+
+}

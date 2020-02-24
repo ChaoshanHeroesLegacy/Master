@@ -1,0 +1,280 @@
+﻿add_namespace = qichao_past
+
+country_event = {
+	id = qichao_past.1#梁启潮开始
+	title = qichao_past.1.t
+	desc = qichao_past.1.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	trigger = {
+		tag = SJX
+		date > 1936.1.1
+		is_ai = no
+		NOT = {
+			has_global_flag = AILQC
+		}
+		OR = {
+			tag = DPX
+			date > 1936.1.1
+			is_ai = no
+			NOT = {
+				has_global_flag = AILQC
+			}
+		}
+	}
+	option = {
+		name = qichao_past.1.a#没毛病
+		hidden_effect = {
+			country_event = { id = qichao_past.2 }
+		}
+		custom_effect_tooltip = qichao_past_1a
+		set_global_flag = playerQC
+	}
+	option = {
+		name = qichao_past.1.b#打清兵
+		set_global_flag = qichao_past_cold
+		custom_effect_tooltip = qichao_past_1b
+		hidden_effect = {
+			country_event = { id = qichao_past.7}
+		}
+		set_global_flag = playerQC
+	}
+}
+
+country_event = {
+	id = qichao_past.2#梁启潮在孩子中的地位
+	title = qichao_past.2.t
+	desc = qichao_past.2.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.2.a#高傲梁启潮
+		hidden_effect = {
+			country_event = { id = qichao_past.3 }
+		}
+		set_global_flag = qichao_past_haughty
+		custom_effect_tooltip = qichao_past_2a
+	}
+	option = {
+		name = qichao_past.2.b#善于谈判梁启潮
+		hidden_effect = {
+			country_event = { id = qichao_past.3 }
+		}
+		set_global_flag = qichao_past_goodattalk
+		custom_effect_tooltip = qichao_past_2b
+	}
+}
+
+country_event = {
+	id = qichao_past.3#梁启潮的学业问题
+	title = qichao_past.3.t
+	desc = qichao_past.3.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.3.a#他凭借自己的能力进入了日本的大学
+		hidden_effect = {
+			country_event = { id = qichao_past.4 }
+		}
+		set_global_flag = qichao_past_study
+		custom_effect_tooltip = qichao_past_3a
+	}
+	option = {
+		name = qichao_past.3.b#学业不佳
+		hidden_effect = {
+			country_event = { id = qichao_past.5 }
+		}
+		custom_effect_tooltip = qichao_past_3b
+	}
+}
+
+country_event = {
+	id = qichao_past.4#梁启潮与同学与冰室
+	title = qichao_past.4.t
+	desc = qichao_past.4.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.4.a#放心 我不傻
+		hidden_effect = {
+			country_event = { id = qichao_past.6 }
+		}
+		custom_effect_tooltip = qichao_past_4a
+	}
+}
+
+country_event = {
+	id = qichao_past.5#梁启潮在冰室与黑帮end
+	title = qichao_past.5.t
+	desc = qichao_past.5.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.5.a#那么
+		hidden_effect = {
+			country_event = { id = qichao_past.114514 }
+		}
+		custom_effect_tooltip = qichao_past_5a
+	}
+}
+
+country_event = {
+	id = qichao_past.6#梁启潮共和联省思想
+	title = qichao_past.6.t
+	desc = qichao_past.6.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.6.a#那么
+		hidden_effect = {
+			country_event = { id = qichao_past.114514 }
+		}
+		custom_effect_tooltip = qichao_past_6a
+	}
+}
+
+country_event = {
+	id = qichao_past.7#梁启潮在军队
+	title = qichao_past.7.t
+	desc = qichao_past.7.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.7.a#高傲梁启潮
+		hidden_effect = {
+			country_event = { id = qichao_past.8 }
+		}
+		set_global_flag = qichao_past_haughty
+		custom_effect_tooltip = qichao_past_7a
+	}
+	option = {
+		name = qichao_past.7.b#战友情
+		hidden_effect = {
+			country_event = { id = qichao_past.8 }
+		}
+		set_global_flag = qichao_zhanyouqing
+		custom_effect_tooltip = qichao_past_7b
+	}
+}
+
+country_event = {
+	id = qichao_past.8#战争从未改变
+	title = qichao_past.8.t
+	desc = qichao_past.8.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.8.a#冰室？
+		hidden_effect = {
+			country_event = { id = qichao_past.9 }
+		}
+		custom_effect_tooltip = qichao_past_8a
+	}
+}
+
+country_event = {
+	id = qichao_past.9#冰室梁启潮军队
+	title = qichao_past.9.t
+	desc = qichao_past.9.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.9.a#好战友
+		trigger = {
+			has_global_flag = qichao_zhanyouqing
+		}
+		hidden_effect = {
+			country_event = { id = qichao_past.114514 }
+		}
+		set_global_flag = qichao_warbrother
+		custom_effect_tooltip = qichao_past_9a
+	}
+	option = {
+		name = qichao_past.9.b#白俄兵
+		trigger = {
+			has_global_flag = qichao_past_haughty
+		}
+		hidden_effect = {
+			country_event = { id = qichao_past.114514 }
+		}
+		set_global_flag = qichao_whiterussia
+		custom_effect_tooltip = qichao_past_9b
+	}
+}
+
+country_event = {
+	id = qichao_past.114514#梁启潮前半生总结
+	title = qichao_past.114514.t
+	desc = qichao_past.114514.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	option = {
+		name = qichao_past.114514.a#这玩意实际上是一堆自定义文本，如果你正好是研究点进来的，你可以进入common\scripted_localisation
+		custom_effect_tooltip = qichao_past_114514a
+	}
+}
+
+
+
+#为什么会有人在这个mod里面不玩潮汕？行吧，下面是为这个而生的了
+country_event = {
+	id = qichao_past.1919810#梁启潮开始
+	title = qichao_past.1919810.t
+	desc = qichao_past.1919810.d
+	picture = GFX_report_event_gathering_protest 
+	fire_only_once = yes
+	trigger = {
+		SJX = {
+			is_ai = yes
+		}
+		DPX = {
+			is_ai = yes
+		}
+		tag = SJX
+		date > 1936.1.1
+	}
+	option = {
+		name = qichao_past.1919810.a#梁启潮是共和领袖
+		set_global_flag = AILQC
+		set_global_flag = qichao_past_goodattalk
+		set_global_flag = qichao_past_study	
+		ai_chance = { factor = 33 }
+	}
+	option = {
+		name = qichao_past.1919810.b#梁启潮就是个普普通通冰室老板
+		set_global_flag = AILQC
+		set_global_flag = qichao_past_goodattalk
+		ai_chance = { factor = 34 }
+	}
+	option = {
+		name = qichao_past.1919810.c#梁启潮是个带着白俄的兵痞
+		set_global_flag = AILQC
+		set_global_flag = qichao_past_haughty
+		set_global_flag = qichao_past_cold
+		set_global_flag = qichao_whiterussia
+		ai_chance = { factor = 33 }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
