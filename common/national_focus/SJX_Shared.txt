@@ -1,7 +1,7 @@
 
 	shared_focus = {
 		id = SJX_money_life
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_money_life
 		cost = 0.00
 		x = 19
 		y = 0
@@ -9,7 +9,7 @@
 	}
 	shared_focus = {
 		id = SJX_whatwedo
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_whatwedo
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_money_life
@@ -20,7 +20,7 @@
 	}
 	shared_focus = {
 		id = SJX_project_plans
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_project_plans
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_whatwedo
@@ -31,7 +31,7 @@
 	}
 	shared_focus = {
 		id = SJX_big_make_iron
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_big_make_iron
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_project_plans
@@ -42,7 +42,7 @@
 	}
 	shared_focus = {
 		id = SJX_farm_machine
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_farm_machine
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_project_plans
@@ -53,7 +53,7 @@
 	}
 	shared_focus = {
 		id = SJX_project_newdeal
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_project_newdeal
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_whatwedo
@@ -64,7 +64,7 @@
 	}
 	shared_focus = {
 		id = SJX_one_hand_factory
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_one_hand_factory
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_project_newdeal
@@ -78,7 +78,7 @@
 	}
 	shared_focus = {
 		id = SJX_one_hand_sign
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_one_hand_sign
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_project_newdeal
@@ -89,7 +89,7 @@
 	}
 	shared_focus = {
 		id = SJX_project_money
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_project_money
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_whatwedo
@@ -100,7 +100,7 @@
 	}
 	shared_focus = {
 		id = SJX_come_from_HK
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_come_from_HK
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_project_money
@@ -111,7 +111,7 @@
 	}
 	shared_focus = {
 		id = SJX_deal_with_company
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_deal_with_company
 		cost = 0.00
 		prerequisite = {
 			focus = SJX_project_money
@@ -122,15 +122,17 @@
 	}
 	shared_focus = {
 		id = SJX_first_foot_left
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SJX_first_foot_left
 		cost = 0.00
 		prerequisite = {
-			focus = SJX_one_hand_factory
 			focus = SJX_one_hand_sign
-			focus = SJX_farm_machine
-			focus = SJX_come_from_HK
-			focus = SJX_deal_with_company
-			focus = SJX_big_make_iron
+			OR = SJX_deal_with_company
+			OR = SJX_big_make_iron
+		}
+		prerequisite = {
+			focus = SJX_one_hand_factory
+			OR = SJX_farm_machine
+			OR = SJX_come_from_HK
 		}
 		x = 19
 		y = 4

@@ -36,5 +36,53 @@ spriteTypes = {
 		name = "GFX_goal_sjx_winner_3road"
 		texturefile = "gfx/interface/goals/goal_sjx_winner_3road.dds"
 	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_money_life"
+		texturefile = "gfx/interface/goals/goal_SJX_money_life.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_whatwedo"
+		texturefile = "gfx/interface/goals/goal_SJX_whatwedo.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_project_plans"
+		texturefile = "gfx/interface/goals/goal_SJX_project_plans.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_big_make_iron"
+		texturefile = "gfx/interface/goals/goal_SJX_big_make_iron.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_farm_machine"
+		texturefile = "gfx/interface/goals/goal_SJX_farm_machine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_project_newdeal"
+		texturefile = "gfx/interface/goals/goal_SJX_project_newdeal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_one_hand_factory"
+		texturefile = "gfx/interface/goals/goal_SJX_one_hand_factory.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_one_hand_sign"
+		texturefile = "gfx/interface/goals/goal_SJX_one_hand_sign.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_project_money"
+		texturefile = "gfx/interface/goals/goal_SJX_project_money.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_come_from_HK"
+		texturefile = "gfx/interface/goals/goal_SJX_come_from_HK.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_deal_with_company"
+		texturefile = "gfx/interface/goals/goal_SJX_deal_with_company.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_first_foot_left"
+		texturefile = "gfx/interface/goals/goal_SJX_first_foot_left.dds"
+	}
 
 }
