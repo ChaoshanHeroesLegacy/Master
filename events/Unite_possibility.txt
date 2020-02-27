@@ -387,12 +387,12 @@ country_event = {
 					}
 				}
 			}
-			788 = {
+			797 = {
 				remove_core_of = DPX
 				remove_core_of = SJX
 				add_core_of = UCC
 			}
-			789 = {
+			798 = {
 				remove_core_of = DPX
 				remove_core_of = SJX
 				add_core_of = UCC
@@ -725,12 +725,12 @@ country_event = {
 					}
 				}
 			}
-			788 = {
+			797 = {
 				remove_core_of = DPX
 				remove_core_of = SJX
 				add_core_of = UCC
 			}
-			789 = {
+			798 = {
 				remove_core_of = DPX
 				remove_core_of = SJX
 				add_core_of = UCC
@@ -757,11 +757,11 @@ country_event = {
 					target = SJX
 				}
 			}
-			788 = {
+			797 = {
 				remove_core_of = DPX
 				remove_core_of = SJX
 			}
-			789 = {
+			798 = {
 				remove_core_of = DPX
 				remove_core_of = SJX
 			}
@@ -823,12 +823,12 @@ country_event = {
 				}
 			}
 		}
-		788 = {
+		797 = {
 			remove_core_of = DPX
 			remove_core_of = SJX
 			add_core_of = UCC
 		}
-		789 = {
+		798 = {
 			remove_core_of = DPX
 			remove_core_of = SJX
 			add_core_of = UCC

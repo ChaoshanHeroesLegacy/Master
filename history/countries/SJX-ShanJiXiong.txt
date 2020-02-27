@@ -107,7 +107,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "贵财"
+	name = "竹高""
 	gfx = "gfx/leaders/SJX/guicai.dds"
 	traits = { combined_arms_expert }
 	skill = 1

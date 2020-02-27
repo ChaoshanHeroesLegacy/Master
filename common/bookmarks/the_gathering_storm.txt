@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "SJX"
 		default = yes
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
@@ -87,9 +87,9 @@ bookmarks = {
 			
 			}
 			focuses = {
-			
-			
-			
+				SJX_war_tangbu
+				SJX_winner_3_road
+				SJX_money_life
 			}	
 		}
 		

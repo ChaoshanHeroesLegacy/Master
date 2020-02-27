@@ -1,0 +1,42 @@
+state= {
+	id=798
+	name="STATE_798"
+	manpower = 1624000
+	state_category = town
+	resources={
+		tungsten=15 # was: 20
+		steel= 15 # was: 20
+		chromium = 3 # was: 4
+	}
+
+	history= {
+		owner = DPX
+		add_core_of = DPX
+		add_core_of = SJX
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+			1113221 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = { 
+			13238 1
+		}
+		victory_points = { 
+			13237 3
+		}
+		victory_points = { 
+			13234  5
+		}
+	}
+	provinces={
+		13234  13237  13238
+	}
+}
