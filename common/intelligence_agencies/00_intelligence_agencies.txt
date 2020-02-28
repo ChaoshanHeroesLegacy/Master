@@ -1,4 +1,4 @@
-﻿# List of names and logos for intelligence agencies
+# List of names and logos for intelligence agencies
 # available trigger will determine if the logo is in the list of available logos or not
 # names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
 
