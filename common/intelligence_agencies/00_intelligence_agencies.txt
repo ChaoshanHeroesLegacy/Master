@@ -2,32 +2,6 @@
 # available trigger will determine if the logo is in the list of available logos or not
 # names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
 
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_cs
-	names = { "英豪队" }
-	
-	default = { tag = UCC }
-	available = { original_tag = UCC }
-}
-
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_cs
-	names = { "英豪队" }
-	
-	default = { tag = DPX }
-	available = { original_tag = DPX }
-}
-
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_cs
-	names = { "英豪队" }
-	
-	default = { tag = SJX }
-	available = { original_tag = SJX }
-}
 
 intelligence_agency = {
 
@@ -318,4 +292,30 @@ intelligence_agency = {
 	}
 	
 	default = { always = yes } 
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cs
+	names = { "英豪队" }
+	
+	default = { tag = UCC }
+	available = { original_tag = UCC }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cs
+	names = { "英豪队" }
+	
+	default = { tag = DPX }
+	available = { original_tag = DPX }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cs
+	names = { "英豪队" }
+	
+	default = { tag = SJX }
+	available = { original_tag = SJX }
 }

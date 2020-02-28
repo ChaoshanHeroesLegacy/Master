@@ -13234,7 +13234,7 @@
 13233;230;236;122;land;false;mountain;1
 ##################
 13234;130;165;4;land;false;plains;5
-13235;130;101;4;land;true;plains;5
-13236;121;255;21;land;true;plains;5
-13237;120;20;19;land;true;plains;5
-13238;122;88;65;land;true;plains;5
+13235;130;101;4;land;false;plains;5
+13236;121;255;21;land;false;plains;5
+13237;120;20;19;land;false;plains;5
+13238;122;88;65;land;false;plains;5
