@@ -5,8 +5,7 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
 	}
 }
 
@@ -15,7 +14,7 @@ division_template = {
 units = {
 	division = { # "大炮班"
 		name = "大炮班"
-		location = 1113218
+		location = 13234
 		start_experience_factor = 0.5
 		division_template = "大炮班"
 		start_equipment_factor = 1

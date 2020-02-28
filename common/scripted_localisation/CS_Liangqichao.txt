@@ -72,3 +72,21 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = UP22d
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			has_global_flag = deaddidu
+		}
+		localization_key = UP22d.deaddidu
+	}
+	text = { #文本块，可以无限并行添加
+		trigger = {
+			NOT = {
+				has_global_flag = deaddidu
+			}
+		}
+		localization_key = UP22d.notdead
+	}
+}
+

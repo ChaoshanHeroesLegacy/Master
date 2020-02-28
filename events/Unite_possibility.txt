@@ -282,6 +282,7 @@ country_event = {
 		}
 	}
 }
+#13-17在哪？我Tia不知道 你要怪得怪二公主啦
 country_event = {
 	id = UP.18#大会结束
 	title = UP.18.t
@@ -650,7 +651,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = UP.29#！
+	id = UP.29#去世！
 	title = UP.29.t
 	desc = UP.29.d
 	picture = GFX_report_event_gathering_protest 
@@ -663,7 +664,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = UP.29.a #他逃走了！
+		name = UP.29.b #他逃走了！
 		hidden_effect = {
 			country_event = { id = UP.31 hours = 4 } #失去梦想
 		}
