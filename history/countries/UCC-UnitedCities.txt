@@ -54,3 +54,24 @@ set_popularities = {
 add_ideas = {
 }
 
+create_corps_commander = {
+	name = "张竞生"
+	portrait_path = "gfx/leaders/UCC/UCC_Zhangjingsheng.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "秦牧"
+	portrait_path = "gfx/leaders/UCC/UCC_Qinmu.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
