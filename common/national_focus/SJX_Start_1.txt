@@ -12,6 +12,9 @@ focus_tree = {
 		id = SJX_war_tangbu
 		icon = GFX_goal_PX_VS_SJ
 		cost = 0.00
+		available = {
+			always = no
+		}
 		x = 5
 		y = 0
 

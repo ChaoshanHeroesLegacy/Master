@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_tanpu_start"
+		texturefile = "gfx/event_pictures/tanpu_start.dds"
+	}
+	spriteType = {
+		name = "GFX_qichao_legacy_1"
+		texturefile = "gfx/event_pictures/qichao_legacy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_qichao_legacy_bingshi"
+		texturefile = "gfx/event_pictures/qichao_legacy_bingshi.dds"
+	}
+	spriteType = {
+		name = "GFX_qichao_legacy_military"
+		texturefile = "gfx/event_pictures/qichao_legacy_military.dds"
+	}
+	spriteType = {
+		name = "GFX_qichao_legacy_republic"
+		texturefile = "gfx/event_pictures/qichao_legacy_republic.dds"
+	}
+
+}
