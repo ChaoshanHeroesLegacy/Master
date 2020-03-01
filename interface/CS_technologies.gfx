@@ -13,6 +13,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/DPX_motoized_equipment_1.dds"
 	}	
 	SpriteType = {
+		name = "GFX_UCC_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/UCC_motoized_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPX_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DPX_mechanized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SJX_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SJX_mechanized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UCC_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/UCC_mechanized_equipment_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_DPX_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/DPX_infantry_equipment_0.dds"
 	}	
@@ -23,6 +39,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_DPX_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/DPX_infantry_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UCC_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/UCC_armored_car_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SJX_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/SJX_armored_car_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPX_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/DPX_armored_car_equipment_1.dds"
 	}	
 
 }
