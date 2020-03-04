@@ -387,6 +387,46 @@ country_event = {
 					traits = {
 					}
 				}
+				create_corps_commander = {
+					name = "林百欣"
+					portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
+					traits = { ranger }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 3
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "李云经"
+					portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
+					traits = { commando }
+					skill = 1
+					attack_skill = 2
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "秦牧"
+					portrait_path = "gfx/leaders/UCC/UCC_Qinmu.dds"
+					traits = { hill_fighter }
+					skill = 2
+					attack_skill = 1
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "张竞生"
+					portrait_path = "gfx/leaders/UCC/UCC_Zhangjingsheng.dds"
+					traits = { career_officer }
+					skill = 2
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 1
+				}
 			}
 			797 = {
 				remove_core_of = DPX
@@ -725,6 +765,16 @@ country_event = {
 					traits = {
 					}
 				}
+				create_field_marshal = {
+					name = "蜘猪侠"
+					portrait_path = "gfx/leaders/UCC/diduxia.dds"
+					traits = { panzer_leader }
+					skill = 3
+					attack_skill = 8
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
 			}
 			797 = {
 				remove_core_of = DPX
@@ -822,6 +872,56 @@ country_event = {
 				ideology = marxism
 				traits = {
 				}
+			}
+			create_field_marshal = {
+				name = "梁启潮"
+				portrait_path = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+				traits = { career_officer panzer_leader politically_connected }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "林百欣"
+				portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
+				traits = { ranger }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "李云经"
+				portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
+				traits = { commando }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "秦牧"
+				portrait_path = "gfx/leaders/UCC/UCC_Qinmu.dds"
+				traits = { hill_fighter }
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "张竞生"
+				portrait_path = "gfx/leaders/UCC/UCC_Zhangjingsheng.dds"
+				traits = { career_officer }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 1
 			}
 		}
 		797 = {

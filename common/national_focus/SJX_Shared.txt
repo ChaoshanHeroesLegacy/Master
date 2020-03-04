@@ -94,7 +94,7 @@
 		prerequisite = {
 			focus = SJX_whatwedo
 		}
-		x = 24
+		x = 23
 		y = 2
 
 	}
@@ -105,7 +105,7 @@
 		prerequisite = {
 			focus = SJX_project_money
 		}
-		x = 23
+		x = 22
 		y = 3
 
 	}
@@ -116,7 +116,7 @@
 		prerequisite = {
 			focus = SJX_project_money
 		}
-		x = 25
+		x = 24
 		y = 3
 
 	}
