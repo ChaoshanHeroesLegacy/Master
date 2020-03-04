@@ -439,6 +439,16 @@ country_event = {
 				add_core_of = UCC
 			}
 			UCC = { change_tag_from = ROOT }
+			SJX = {
+				transfer_navy = { target = UCC }
+				every_unit_leader = { set_nationality = UCC }
+				every_navy_leader = { set_nationality = UCC }
+			}
+			DPX = {
+				transfer_navy = { target = UCC }
+				every_unit_leader = { set_nationality = UCC }
+				every_navy_leader = { set_nationality = UCC }
+			}
 		}
 	}
 }
@@ -828,112 +838,114 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = UP.32.a #买买买买买
-		UCC = {
-			annex_country = {
-				target = SJX
-			}
-			annex_country = {
-				target = DPX
-			}
-			load_focus_tree = UCC_IRONFIST
-			set_cosmetic_tag = UCC_IRONFIST
-			create_country_leader = {
-				name = "梁启潮"
-				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
-				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
+		hidden_effect = {
+			UCC = {
+				annex_country = {
+					target = SJX
+				}
+				annex_country = {
+					target = DPX
+				}
+				load_focus_tree = UCC_IRONFIST
+				set_cosmetic_tag = UCC_IRONFIST
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+					picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+					picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+					expire = "1965.1.1"
+					ideology = liberalism
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+					picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+					expire = "1965.1.1"
+					ideology = fascism_ideology
+					traits = {
+					}
+				}
+				create_country_leader = {
+					name = "梁启潮"
+					desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
+					picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+					expire = "1965.1.1"
+					ideology = marxism
+					traits = {
+					}
+				}
+				create_field_marshal = {
+					name = "梁启潮"
+					portrait_path = "gfx/leaders/UCC/liangqichao_ironfist.dds"
+					traits = { career_officer panzer_leader politically_connected }
+					skill = 3
+					attack_skill = 4
+					defense_skill = 1
+					planning_skill = 3
+					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "林百欣"
+					portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
+					traits = { ranger }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 3
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "李云经"
+					portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
+					traits = { commando }
+					skill = 1
+					attack_skill = 2
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "秦牧"
+					portrait_path = "gfx/leaders/UCC/UCC_Qinmu.dds"
+					traits = { hill_fighter }
+					skill = 2
+					attack_skill = 1
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "张竞生"
+					portrait_path = "gfx/leaders/UCC/UCC_Zhangjingsheng.dds"
+					traits = { career_officer }
+					skill = 2
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 1
 				}
 			}
-			create_country_leader = {
-				name = "梁启潮"
-				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
-				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-				}
+			797 = {
+				remove_core_of = DPX
+				remove_core_of = SJX
+				add_core_of = UCC
 			}
-			create_country_leader = {
-				name = "梁启潮"
-				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
-				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-				}
+			798 = {
+				remove_core_of = DPX
+				remove_core_of = SJX
+				add_core_of = UCC
 			}
-			create_country_leader = {
-				name = "梁启潮"
-				desc = "POLITICS_LIANGQICHAO_IRONFIST_DESC"
-				picture = "gfx/leaders/UCC/liangqichao_ironfist.dds"
-				expire = "1965.1.1"
-				ideology = marxism
-				traits = {
-				}
-			}
-			create_field_marshal = {
-				name = "梁启潮"
-				portrait_path = "gfx/leaders/UCC/liangqichao_ironfist.dds"
-				traits = { career_officer panzer_leader politically_connected }
-				skill = 3
-				attack_skill = 4
-				defense_skill = 1
-				planning_skill = 3
-				logistics_skill = 3
-			}
-			create_corps_commander = {
-				name = "林百欣"
-				portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
-				traits = { ranger }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 3
-				logistics_skill = 1
-			}
-			create_corps_commander = {
-				name = "李云经"
-				portrait_path = "gfx/leaders/UCC/UCC_Linbaixin.dds"
-				traits = { commando }
-				skill = 1
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 2
-			}
-			create_corps_commander = {
-				name = "秦牧"
-				portrait_path = "gfx/leaders/UCC/UCC_Qinmu.dds"
-				traits = { hill_fighter }
-				skill = 2
-				attack_skill = 1
-				defense_skill = 3
-				planning_skill = 2
-				logistics_skill = 2
-			}
-			create_corps_commander = {
-				name = "张竞生"
-				portrait_path = "gfx/leaders/UCC/UCC_Zhangjingsheng.dds"
-				traits = { career_officer }
-				skill = 2
-				attack_skill = 3
-				defense_skill = 2
-				planning_skill = 4
-				logistics_skill = 1
-			}
+			UCC = { change_tag_from = ROOT }
 		}
-		797 = {
-			remove_core_of = DPX
-			remove_core_of = SJX
-			add_core_of = UCC
-		}
-		798 = {
-			remove_core_of = DPX
-			remove_core_of = SJX
-			add_core_of = UCC
-		}
-		UCC = { change_tag_from = ROOT }
 	}
 }
