@@ -4,7 +4,17 @@ focus_tree = {
 		factor = 0
 	}
 	default = no
+	focus = {
+		id = UCC_Neworder
+		icon = GFX_goal_UCC_Neworder
+		cost = 0.00
+		available = {
+			always = no
+		}
+		x = 7
+		y = 0
 
+	}
 
 
 

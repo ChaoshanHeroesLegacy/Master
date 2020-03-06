@@ -84,5 +84,10 @@ spriteTypes = {
 		name = "GFX_goal_SJX_first_foot_left"
 		texturefile = "gfx/interface/goals/goal_SJX_first_foot_left.dds"
 	}
+	SpriteType = { 
+		name = "GFX_goal_UCC_Neworder"
+		texturefile = "gfx/interface/goals/goal_UCC_Neworder.tga"
+	}
+	
 
 }
