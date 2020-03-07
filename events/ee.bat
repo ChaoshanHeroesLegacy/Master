@@ -1,1 +1,1 @@
-start python hoi4localisationadder.py Unite_possibility.txt 1.yml
+start python hoi4localisationadder.py SJX_others.txt 1.yml

@@ -88,6 +88,10 @@ spriteTypes = {
 		name = "GFX_goal_UCC_Neworder"
 		texturefile = "gfx/interface/goals/goal_UCC_Neworder.tga"
 	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_MUSTtodo"
+		texturefile = "gfx/interface/goals/goal_SJX_MUSTtodo.tga"
+	}
 	
 
 }

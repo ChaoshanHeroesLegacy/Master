@@ -1,6 +1,20 @@
 ﻿l_english:
 
  #通用经济
+ SJX_MUSTtodo:0 "坚毅前行"
+ SJX_MUSTtodo_desc:0 ""
+ SJX_Plant_Sugarcane:0 "种甘蔗"
+ SJX_Plant_Sugarcane_desc:0 ""
+ SJX_Plant_Banana:0 "种香蕉"
+ SJX_Plant_Banana_desc:0 ""
+ SJX_isorisntworking:0 "成功或耻辱"
+ SJX_isorisntworking_desc:0 ""
+ SJX_wellplzsomemoney:0 "胜利债券"
+ SJX_wellplzsomemoney_desc:0 ""
+ SJX_moreworkshop:0 "更多作坊"
+ SJX_moreworkshop_desc:0 ""
+ SJX_worsthasgone:0 "最糟之日已然过去"
+ SJX_worsthasgone_desc:0 ""
  SJX_money_life:0 "经济命脉"
  SJX_money_life_desc:0 "经济对我们来说至关重要，我们的确仅仅只是黑帮，但我们也不能这么持续下去。"
  SJX_whatwedo:0 "我们该怎么搞？"

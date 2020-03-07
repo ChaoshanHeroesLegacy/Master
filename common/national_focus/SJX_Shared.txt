@@ -1,71 +1,204 @@
-
+	shared_focus = {
+		id = SJX_MUSTtodo
+		icon = GFX_goal_SJX_MUSTtodo
+		cost = 1
+		x = 19
+		y = 0
+		avaliable = {
+			has_completed_focus = SJX_summon_up_heart
+		}
+		completion_reward = {
+			event = {
+				id = SJX_ECO.1
+			}
+		}
+	}
+	shared_focus = {
+		id = SJX_Plant_Sugarcane
+		icon = GFX_goal_SJX_Plant_Sugarcane
+		cost = 1
+		prerequisite = {
+			focus = SJX_MUSTtodo
+		}
+		x = 15
+		y = 1
+		completion_reward = {
+			event = {
+				id = SJX_ECO.2
+			}
+		}
+	}
+	shared_focus = {
+		id = SJX_Plant_Banana
+		icon = GFX_goal_SJX_Plant_Banana
+		cost = 1
+		prerequisite = {
+			focus = SJX_MUSTtodo
+		}
+		x = 17
+		y = 1
+		completion_reward = {
+			event = {
+				id = SJX_ECO.3
+			}
+		}
+	}
+	shared_focus = {
+		id = SJX_isorisntworking
+		icon = GFX_goal_SJX_isorisntworking
+		cost = 1
+		prerequisite = {
+			focus = SJX_MUSTtodo
+		}
+		x = 19
+		y = 1
+		completion_reward = {
+			event = {
+				id = SJX_ECO.4
+			}
+		}
+	}
+	shared_focus = {
+		id = SJX_wellplzsomemoney
+		icon = GFX_goal_SJX_wellplzsomemoney
+		cost = 1
+		prerequisite = {
+			focus = SJX_MUSTtodo
+		}
+		x = 21
+		y = 1
+		completion_reward = {
+			event = {
+				id = SJX_ECO.5
+			}
+		}
+	}
+	shared_focus = {
+		id = SJX_moreworkshop
+		icon = GFX_goal_SJX_moreworkshop
+		cost = 1
+		prerequisite = {
+			focus = SJX_MUSTtodo
+		}
+		x = 23
+		y = 1
+		completion_reward = {
+			event = {
+				id = SJX_ECO.6
+			}
+		}
+	}
+	shared_focus = {
+		id = SJX_worsthasgone
+		icon = GFX_goal_SJX_worsthasgone
+		cost = 1
+		prerequisite = {
+			focus = SJX_Plant_Sugarcane
+		}
+		prerequisite = {
+			focus = SJX_Plant_Banana
+		}
+		prerequisite = {
+			focus = SJX_isorisntworking
+		}
+		prerequisite = {
+			focus = SJX_wellplzsomemoney
+		}
+		prerequisite = {
+			focus = SJX_moreworkshop
+		}
+		x = 19
+		y = 2
+		completion_reward = {
+			event = {
+				id = SJX_ECO.7
+			}
+		}
+	}
 	shared_focus = {
 		id = SJX_money_life
 		icon = GFX_goal_SJX_money_life
-		cost = 0.00
+		cost = 5
+		prerequisite = {
+			focus = SJX_worsthasgone
+		}
 		x = 19
-		y = 0
-
+		y = 3
+		completion_reward = {
+			event = {
+				id = SJX_ECO.8
+			}
+		}
 	}
 	shared_focus = {
 		id = SJX_whatwedo
 		icon = GFX_goal_SJX_whatwedo
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_money_life
 		}
 		x = 19
-		y = 1
-
+		y = 4
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_project_plans
 		icon = GFX_goal_SJX_project_plans
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_whatwedo
 		}
 		x = 15
-		y = 2
-
+		y = 5
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_big_make_iron
 		icon = GFX_goal_SJX_big_make_iron
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_project_plans
 		}
 		x = 14
-		y = 3
-
+		y = 6
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_farm_machine
 		icon = GFX_goal_SJX_farm_machine
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_project_plans
 		}
 		x = 16
-		y = 3
-
+		y = 6
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_project_newdeal
 		icon = GFX_goal_SJX_project_newdeal
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_whatwedo
-		}
+		} 
 		x = 19
-		y = 2
-
+		y = 5
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_one_hand_factory
 		icon = GFX_goal_SJX_one_hand_factory
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_project_newdeal
 		}
@@ -73,57 +206,67 @@
 			focus = SJX_project_newdeal
 		}
 		x = 18
-		y = 3
-
+		y = 6
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_one_hand_sign
 		icon = GFX_goal_SJX_one_hand_sign
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_project_newdeal
 		}
 		x = 20
-		y = 3
-
+		y = 6
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_project_money
 		icon = GFX_goal_SJX_project_money
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_whatwedo
 		}
 		x = 23
-		y = 2
-
+		y = 5
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_come_from_HK
 		icon = GFX_goal_SJX_come_from_HK
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_project_money
 		}
 		x = 22
-		y = 3
-
+		y = 6
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_deal_with_company
 		icon = GFX_goal_SJX_deal_with_company
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_project_money
 		}
 		x = 24
-		y = 3
-
+		y = 6
+		completion_reward = {
+			
+		}
 	}
 	shared_focus = {
 		id = SJX_first_foot_left
 		icon = GFX_goal_SJX_first_foot_left
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SJX_one_hand_sign
 			OR = SJX_deal_with_company
@@ -135,6 +278,9 @@
 			OR = SJX_come_from_HK
 		}
 		x = 19
-		y = 4
+		y = 7
+		completion_reward = {
+			
+		}
 	}
 }

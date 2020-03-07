@@ -7,6 +7,10 @@ focus_tree = {
 			tag = SJX
 		}
 	}
+
+	shared_focus = SJX_MUSTtodo
+
+
 	default = no
 	focus = {
 		id = SJX_war_tangbu
@@ -113,6 +117,6 @@ focus_tree = {
 		y = 6
 
 	}
-	shared_focus = SJX_money_life
+	
 
 }

@@ -1,0 +1,1 @@
+start hoi4localisationadder.py SJX_Shared.txt 3.yml
