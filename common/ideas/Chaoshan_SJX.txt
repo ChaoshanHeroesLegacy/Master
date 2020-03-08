@@ -1,0 +1,101 @@
+ideas = {
+	country = {
+		lost_tanpu_1 = {     #塘埔桥的失败
+
+			picture = lost_tanpu_1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {		#政治点数 	-30%
+								#稳定度 		-20%
+								#战争支持度 	-20% 
+
+			}
+		}
+	}
+	country = {
+		lost_tanpu_2 = {     #塘埔桥的失败追加
+
+			picture = lost_tanpu_2
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {		#政治点数 	-15%
+								#稳定度 		-10%
+								#战争支持度 	-10% 
+		}
+	}
+	country = {
+		lost_tanpu_3 = {     #塘埔桥的决心
+
+			picture = lost_tanpu_3
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {		#政治点数 	+10%
+								#稳定度 		+5%
+								#战争支持度 	+5% 
+		}
+	}
+	country = {
+		win_of_3_road_1 = {     #叁号胜利
+
+			picture = win_of_3_road
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {		#政治点数 	+25%
+								#稳定度 		+15%
+								#战争支持度 	+15% 
+		}
+	}
+	country = {
+		SJX_inside_change = {     #内务改革
+
+			picture = SJX_inside_change
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {		#陆军经验  +0.05/天（别问我为什么）
+								#政治点数 	+25%
+								#战争支持度  -15%
+								#稳定度 	-10%
+		}
+	}
+	country = {
+		SJX_weapon_sc = {    #武器生产
+
+			picture = SJX_weapon_sc
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+								#步兵武器 -10%建造花费
+			}
+		}
+	}
+}

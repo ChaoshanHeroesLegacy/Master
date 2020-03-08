@@ -52,15 +52,15 @@
  
  
  #经济线事件
- SJX_ECO.1.t:0 ""
+ SJX_ECO.1.t:0 "经济的曙光？"
  SJX_ECO.1.d:0 ""
- SJX_ECO.1.a:0 ""
- SJX_ECO.2.t:0 ""
+ SJX_ECO.1.a:0 "干吧，阁下！"
+ SJX_ECO.2.t:0 "甘蔗如何？"
  SJX_ECO.2.d:0 ""
- SJX_ECO.2.a:0 ""
- SJX_ECO.3.t:0 ""
+ SJX_ECO.2.a:0 "山鸡兄同意了！"
+ SJX_ECO.3.t:0 "香蕉呢？"
  SJX_ECO.3.d:0 ""
- SJX_ECO.3.a:0 ""
+ SJX_ECO.3.a:0 "不失为一个好主意。"
  SJX_ECO.4.t:0 ""
  SJX_ECO.4.d:0 ""
  SJX_ECO.4.a:0 ""

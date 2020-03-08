@@ -92,6 +92,30 @@ spriteTypes = {
 		name = "GFX_goal_SJX_MUSTtodo"
 		texturefile = "gfx/interface/goals/goal_SJX_MUSTtodo.tga"
 	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_Plant_Sugarcane"
+		texturefile = "gfx/interface/goals/goal_SJX_Plant_Sugarcane.tga"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_isorisntworking"
+		texturefile = "gfx/interface/goals/goal_SJX_isorisntworking.tga"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_worsthasgone"
+		texturefile = "gfx/interface/goals/goal_SJX_worsthasgone.tga"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_wellplzsomemoney"
+		texturefile = "gfx/interface/goals/goal_SJX_wellplzsomemoney.tga"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_Plant_Banana"
+		texturefile = "gfx/interface/goals/goal_SJX_Plant_Banana.tga"
+	}
+	SpriteType = { 
+		name = "GFX_goal_SJX_moreworkshop"
+		texturefile = "gfx/interface/goals/goal_SJX_moreworkshop.tga"
+	}
 	
 
 }

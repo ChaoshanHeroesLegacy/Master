@@ -7,15 +7,17 @@ music = {
       has_war = no
 	TAG = DPX
 	TAG = SJX
+	TAG = UCC
     }
   }
 }
 music = {
-  song = "csrap"
+  song = "hqdnz"
   chance = {
 	modifier = {
 	TAG = DPX
 	TAG = SJX
+	TAG = UCC
 	factor =4
     }
   }
@@ -26,6 +28,7 @@ music = {
 	modifier = {
 	TAG = DPX
 	TAG = SJX
+	TAG = UCC
 	factor =4
     }
   }
@@ -38,6 +41,7 @@ music = {
       has_war = no
 	TAG = DPX
 	TAG = SJX
+	TAG = UCC
     }
   }
 }
@@ -48,6 +52,7 @@ music = {
 		factor = 4
 		TAG = DPX
 		TAG = SJX
+		TAG = UCC
     }
   }
 }
@@ -57,6 +62,7 @@ music = {
     modifier = {
 		factor = 4
 		TAG = DPX
+		TAG = UCC
     }
   }
 }

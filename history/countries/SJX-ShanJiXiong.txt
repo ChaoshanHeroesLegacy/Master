@@ -1,4 +1,4 @@
-﻿capital = 797
+capital = 797
 
 oob = "SJX_1936"
 
@@ -28,7 +28,7 @@ set_technology = {
 }
 
 1939.1.1 = {
-	oob = "SJX_1939"
+	oob = "SJX_1936"
 	add_political_power = 1198
 }
 
@@ -38,6 +38,8 @@ set_convoys = 5
 
 
 add_ideas = {
+	chaoshan_gang_1
+	chaoshan_gang_money_1
 }
 
 set_politics = {
@@ -102,6 +104,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+	id = 114514
 }
 
 create_corps_commander = {

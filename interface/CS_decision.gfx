@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_decision_cat_picture_thehospital"
+		texturefile = "gfx/interface/decisions/decision_thehospital.dds"
+	}
+	SpriteType = { 
+		name = "GFX_decision_category_SJX_weigeinthehospital"
+		texturefile = "gfx/interface/decisions/decision_SJX_weigeinthehospital.dds"
+	}
+	
+
+}

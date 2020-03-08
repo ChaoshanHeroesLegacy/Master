@@ -1,0 +1,44 @@
+#Category only allowed for SJX
+SJX_weigeinthehospital = {
+
+	SJX_weigegetout = {
+		visible = {
+			has_country_flag = weigehurt
+		}
+		activation = {
+			has_country_flag = weigehurt
+		}
+		available = {
+			always = no
+		}
+		days_mission_timeout = 60
+		timeout_effect = {
+			clr_country_flag = weigehurt
+			create_corps_commander = {
+				name = "伟哥"
+				portrait_path  = "gfx/leaders/SJX/weige.dds"
+				traits = {  }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+				id = 114514
+			}
+			create_corps_commander = {
+				name = "水鸭"
+				portrait_path  = "gfx/leaders/SJX/shuiya.dds"
+				traits = {  }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+		is_good = yes
+		complete_effect = {
+		}
+	}
+	
+}

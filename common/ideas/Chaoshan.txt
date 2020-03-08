@@ -1,0 +1,150 @@
+ideas = {
+	#chaoshan_gang_1:0 "潮汕黑帮"
+	#chaoshan_gang_2:0 "潮汕黑帮"
+	#chaoshan_gang_3:0 "潮汕黑帮"
+	country = {
+		chaoshan_gang_1 = {     #黑帮混混
+
+			picture = chaoshan_gang
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.95                        #适役-50%
+				command_power_gain_mult = -0.7			#陆军之类大减
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
+				mobilization_speed = -0.2
+				training_time_factor = 0.5
+			}
+		}
+		chaoshan_gang_2 = {      #改革黑帮
+
+			picture = chaoshan_gang
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.65                  #适役-1.4%
+				command_power_gain_mult = -0.25			#陆军之类大减
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				mobilization_speed = -0.10
+				training_time_factor = 0.25
+				
+			}
+		}
+		chaoshan_gang_3 = {       
+
+			picture = chaoshan_gang
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.15                        #适役-1.4%
+				command_power_gain_mult = -0.10			#陆军之类大减
+				army_attack_factor = -0.5
+				army_defence_factor = -0.5
+				mobilization_speed = -0.5
+				training_time_factor = 0.10
+			}
+		}
+	#chaoshan_gang_money_1:0 "经济？"
+	#chaoshan_gang_money_2:0 "哇！经济！"
+	#chaoshan_gang_money_3:0 "重视经济"
+	#chaoshan_gang_money_4:0 "经济繁荣"
+	#chaoshan_gang_money_5:0 "经济腾飞"
+		chaoshan_gang_money_1 = {     	#经济？
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.5        #产出之类-50%
+				industrial_capacity_dockyard = -0.5		
+				production_speed_buildings_factor = -0.5
+				research_speed_factor = -0.20			#科研-20%
+			}
+		}
+		chaoshan_gang_money_2 = {     	#哇！经济！
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.25        #产出之类-25%
+				industrial_capacity_dockyard = -0.25		
+				production_speed_buildings_factor = -0.25
+				training_time_factor = 0.25
+				research_speed_factor = -0.10			#科研-10%
+			}
+		}
+		chaoshan_gang_money_3 = {     	#重视经济
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {        		
+				production_speed_buildings_factor = -0.1 #建造之类-10%
+				training_time_factor = 0.1			
+			}
+		}
+		chaoshan_gang_money_4 = {     	#经济繁荣
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.15        #产出之类+ 15%
+				industrial_capacity_dockyard = 0.15	
+				production_speed_buildings_factor = 0.1
+				training_time_factor = 0.1
+				research_speed_factor = 0.10			#科研+10%
+			}
+		}
+		chaoshan_gang_money_5 = {     	#经济腾飞
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.4        #产出之类+ 15%
+				industrial_capacity_dockyard = 0.4		
+				production_speed_buildings_factor = 0.3
+				training_time_factor = 0.3
+				research_speed_factor = 0.2			#科研+20%
+			}
+		}
+	}
+}

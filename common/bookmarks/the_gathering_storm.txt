@@ -69,8 +69,8 @@ bookmarks = {
 			history = "CHAOSHANG_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-			
-			
+				chaoshan_gang_1
+				chaoshan_gang_money_1
 			}
 			focuses = {
 			
@@ -83,8 +83,8 @@ bookmarks = {
 			history = "CHAOSHANG_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-			
-			
+				chaoshan_gang_1
+				chaoshan_gang_money_1
 			}
 			focuses = {
 				SJX_war_tangbu
@@ -153,6 +153,21 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
+		"FRA"={
+			minor = yes
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_form_the_popular_front
+				FRA_revive_the_national_bloc
+				FRA_france_leads
+			}
+		}
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
@@ -441,7 +456,36 @@ bookmarks = {
 				HOL_prepare_the_inundation_lines
 			}
 		}
-		
+		"SPR"={
+			minor = yes
+			history = "SPAIN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				SPR_military_disloyalty
+				SPA_carlism_1
+				SPR_political_violence
+			}
+			focuses = {
+				SPA_caudillo_of_spain
+				SPA_no_compromise_on_carlist_ideals
+				SPR_anarchism_knows_no_borders
+			}
+		}
+
+		"POR"={
+			minor = yes
+			history = "PORTUGAL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				POR_unstable_republic
+				POR_unreliable_army
+			}
+			focuses = {
+				POR_estado_novo
+				POR_workers_of_iberia_unite
+				POR_luso_tropicalism
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

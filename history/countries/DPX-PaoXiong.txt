@@ -1,4 +1,4 @@
-﻿capital = 798
+capital = 798
 
 oob = "DPX_1936"
 
@@ -30,7 +30,7 @@ set_technology = {
 }
 
 1939.1.1 = {
-	oob = "DPX_1939"
+	oob = "DPX_1936"
 	add_political_power = 1198
 }
 
@@ -52,6 +52,8 @@ set_popularities = {
 }
 
 add_ideas = {
+	chaoshan_gang_1
+	chaoshan_gang_money_1
 }
 
 create_country_leader = {

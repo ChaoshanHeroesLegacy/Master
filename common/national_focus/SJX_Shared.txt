@@ -1,14 +1,14 @@
 	shared_focus = {
 		id = SJX_MUSTtodo
 		icon = GFX_goal_SJX_MUSTtodo
-		cost = 1
+		cost = 1.5
 		x = 19
 		y = 0
-		avaliable = {
+		available = {
 			has_completed_focus = SJX_summon_up_heart
 		}
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.1
 			}
 		}
@@ -16,14 +16,14 @@
 	shared_focus = {
 		id = SJX_Plant_Sugarcane
 		icon = GFX_goal_SJX_Plant_Sugarcane
-		cost = 1
+		cost = 1.5
 		prerequisite = {
 			focus = SJX_MUSTtodo
 		}
-		x = 15
+		x = 18
 		y = 1
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.2
 			}
 		}
@@ -31,14 +31,14 @@
 	shared_focus = {
 		id = SJX_Plant_Banana
 		icon = GFX_goal_SJX_Plant_Banana
-		cost = 1
+		cost = 1.5
 		prerequisite = {
 			focus = SJX_MUSTtodo
 		}
-		x = 17
+		x = 20
 		y = 1
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.3
 			}
 		}
@@ -46,14 +46,17 @@
 	shared_focus = {
 		id = SJX_isorisntworking
 		icon = GFX_goal_SJX_isorisntworking
-		cost = 1
+		cost = 1.5
 		prerequisite = {
-			focus = SJX_MUSTtodo
+			focus = SJX_Plant_Banana
 		}
-		x = 19
-		y = 1
+		prerequisite = {
+			focus = SJX_Plant_Sugarcane
+		}
+		x = 17
+		y = 2
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.4
 			}
 		}
@@ -61,14 +64,17 @@
 	shared_focus = {
 		id = SJX_wellplzsomemoney
 		icon = GFX_goal_SJX_wellplzsomemoney
-		cost = 1
+		cost = 1.5
 		prerequisite = {
-			focus = SJX_MUSTtodo
+			focus = SJX_Plant_Banana
 		}
-		x = 21
-		y = 1
+		prerequisite = {
+			focus = SJX_Plant_Sugarcane
+		}
+		x = 19
+		y = 2
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.5
 			}
 		}
@@ -76,14 +82,17 @@
 	shared_focus = {
 		id = SJX_moreworkshop
 		icon = GFX_goal_SJX_moreworkshop
-		cost = 1
+		cost = 1.5
 		prerequisite = {
-			focus = SJX_MUSTtodo
+			focus = SJX_Plant_Banana
 		}
-		x = 23
-		y = 1
+		prerequisite = {
+			focus = SJX_Plant_Sugarcane
+		}
+		x = 21
+		y = 2
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.6
 			}
 		}
@@ -91,13 +100,7 @@
 	shared_focus = {
 		id = SJX_worsthasgone
 		icon = GFX_goal_SJX_worsthasgone
-		cost = 1
-		prerequisite = {
-			focus = SJX_Plant_Sugarcane
-		}
-		prerequisite = {
-			focus = SJX_Plant_Banana
-		}
+		cost = 1.5
 		prerequisite = {
 			focus = SJX_isorisntworking
 		}
@@ -108,9 +111,9 @@
 			focus = SJX_moreworkshop
 		}
 		x = 19
-		y = 2
+		y = 3
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.7
 			}
 		}
@@ -123,9 +126,9 @@
 			focus = SJX_worsthasgone
 		}
 		x = 19
-		y = 3
+		y = 4
 		completion_reward = {
-			event = {
+			country_event = {
 				id = SJX_ECO.8
 			}
 		}
@@ -138,7 +141,7 @@
 			focus = SJX_money_life
 		}
 		x = 19
-		y = 4
+		y = 5
 		completion_reward = {
 			
 		}
@@ -151,7 +154,7 @@
 			focus = SJX_whatwedo
 		}
 		x = 15
-		y = 5
+		y = 6
 		completion_reward = {
 			
 		}
@@ -164,7 +167,7 @@
 			focus = SJX_project_plans
 		}
 		x = 14
-		y = 6
+		y = 7
 		completion_reward = {
 			
 		}
@@ -177,7 +180,7 @@
 			focus = SJX_project_plans
 		}
 		x = 16
-		y = 6
+		y = 7
 		completion_reward = {
 			
 		}
@@ -190,7 +193,7 @@
 			focus = SJX_whatwedo
 		} 
 		x = 19
-		y = 5
+		y = 6
 		completion_reward = {
 			
 		}
@@ -206,7 +209,7 @@
 			focus = SJX_project_newdeal
 		}
 		x = 18
-		y = 6
+		y = 7
 		completion_reward = {
 			
 		}
@@ -219,7 +222,7 @@
 			focus = SJX_project_newdeal
 		}
 		x = 20
-		y = 6
+		y = 7
 		completion_reward = {
 			
 		}
@@ -232,7 +235,7 @@
 			focus = SJX_whatwedo
 		}
 		x = 23
-		y = 5
+		y = 6
 		completion_reward = {
 			
 		}
@@ -245,7 +248,7 @@
 			focus = SJX_project_money
 		}
 		x = 22
-		y = 6
+		y = 7
 		completion_reward = {
 			
 		}
@@ -258,7 +261,7 @@
 			focus = SJX_project_money
 		}
 		x = 24
-		y = 6
+		y = 7
 		completion_reward = {
 			
 		}
@@ -278,7 +281,7 @@
 			OR = SJX_come_from_HK
 		}
 		x = 19
-		y = 7
+		y = 8
 		completion_reward = {
 			
 		}

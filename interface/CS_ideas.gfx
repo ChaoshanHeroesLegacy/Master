@@ -1,0 +1,63 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_idea_chaoshan_gang"
+		texturefile = "gfx/interface/ideas/idea_chaoshan_gang.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_chaoshan_gang_money_1"
+		texturefile = "gfx/interface/ideas/idea_chaoshan_gang_money_1.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_chaoshan_gang_money_2"
+		texturefile = "gfx/interface/ideas/idea_chaoshan_gang_money_2.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_chaoshan_gang_money_3"
+		texturefile = "gfx/interface/ideas/idea_chaoshan_gang_money_3.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_chaoshan_gang_money_4"
+		texturefile = "gfx/interface/ideas/idea_chaoshan_gang_money_4.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_chaoshan_gang_money_5"
+		texturefile = "gfx/interface/ideas/idea_chaoshan_gang_money_5.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_lost_tanpu_1"
+		texturefile = "gfx/interface/ideas/idea_lost_tanpu_1.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_lost_tanpu_2"
+		texturefile = "gfx/interface/ideas/idea_lost_tanpu_2.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_lost_tanpu_3"
+		texturefile = "gfx/interface/ideas/idea_lost_tanpu_3.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_win_of_3_road"
+		texturefile = "gfx/interface/ideas/idea_win_of_3_road.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SJX_inside_change"
+		texturefile = "gfx/interface/ideas/idea_SJX_inside_change.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SJX_weapon_sc"
+		texturefile = "gfx/interface/ideas/idea_SJX_weapon_sc.dds"
+	}
+	
+}
